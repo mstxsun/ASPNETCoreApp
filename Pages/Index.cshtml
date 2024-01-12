@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@* @section scripts{
+    <script type="text/javascript" lanaguage="javascript">
+        function handleButtonClick() {
+            fetch("/ErrorHandle/TryThrow", {
+                method: "GET",
+                data: {}
+            })
+        }
+    </script>
+} *@
+
+<div class="jumbotron">
+    <h1>.NET 💜 Azure</h1>
+    <p class="lead">Example .NET app to Azure App Service.</p>
+@*     <button onclick="handleButtonClick(this)">Please Click Me</button> *@
+</div>
